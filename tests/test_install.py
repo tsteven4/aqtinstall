@@ -1168,7 +1168,7 @@ def tool_archive(host: str, tool_name: str, variant: str, date: datetime = datet
             ),
         ),
         (  # extensions availability: qtpdf and qtwebengine
-           # add --keep to debug created mock archive
+            # add --keep to debug created mock archive
             "install-qt windows desktop 6.8.1 win64_msvc2022_64 -m qtwebengine".split(),
             "windows",
             "desktop",
